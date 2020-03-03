@@ -29,7 +29,7 @@ p {
   font-family: 'Alegreya', serif;
   background-color: #EEE2DC;
   color: #AC3B61;
-  font-size: 1.25em;
+  font-size: 1.25rem;
 }
 hr {
   border-style: none;
@@ -52,7 +52,7 @@ overflow: hidden;
   }
 li {
   float: left;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 li a{
@@ -156,7 +156,7 @@ flex: 1;
 	display:inline-block;
 	cursor:pointer;
 	color:#EEE2DC;
-	font-size: 2ex;
+	font-size: 2rem;
 	padding:12px 37px;
 	text-decoration:none;
 	text-shadow:0 1px 0 #283966;
