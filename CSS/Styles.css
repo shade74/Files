@@ -1,6 +1,13 @@
 
 
-
+html {
+  margin-top: 0;
+  padding-top: 0;
+}
+head {
+  margin-top: 0;
+  padding-top: 0;
+}
 h1 {
   font-family: 'Lato', sans-serif;
   font-size: 2.25rem;
@@ -16,7 +23,7 @@ h3 {
   background-color: #EEE2DC;
   color: #AC3B61;
   text-align: center;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
 }
 h4 {
   font-family: 'Lato', sans-serif;
@@ -42,6 +49,7 @@ width: 5%;
 body {
   background-color: #EEE2DC;
   margin: 0;
+  padding: 0;
 }
 ul {
   list-style-type: none;
@@ -58,7 +66,7 @@ li {
 li a{
   display: block;
 text-align: center;
-padding: 16px;
+padding: 12px;
 text-decoration: none;
       color: #EEE2DC;
 }
@@ -72,16 +80,19 @@ background-color: #123C69;
 }
 
 .PageHeader {
+  position: relative;
   background-color: #123C69;
   color: #EEE2DC;
-  height: 200px;
+  height: 150px;
   margin: 0;
+  padding: 0;
 }
 .Logo {
-      position: absolute;
-      height: 150px;
-      top: 10px;
-      left: 10px;
+  background-color: #123C69;
+          height: 100px;
+          margin: 0;
+          padding: 0;
+        
       }
 .Headshot {
   width: 200px;
@@ -93,26 +104,34 @@ background-color: #123C69;
   display: block;
 }
 .Title {
-  Position: relative;
   background-color: #123C69;
   color: #EEE2DC;
+  left: 40%;
+  top: 0px;
+  margin: 0;
+  padding: 5;
   text-align: center;
 }
 .Description {
-  Position: relative;
   background-color: #123C69;
   color: #EEE2DC;
+  left: 40%;
+  top: 60px;
+  margin: 0;
+  padding: 5;
   text-align: center;
-
 }
 .About {
-  padding: 2.5%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
 }
 .RStyle {
-  padding: 2.5%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
 }
 .Expect {
-  padding: 2.5%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
 }
 .ContactDetails {
   color: #AC3B61;
