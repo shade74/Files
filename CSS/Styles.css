@@ -74,12 +74,12 @@ background-color: #123C69;
 .PageHeader {
   background-color: #123C69;
   color: #EEE2DC;
-  height: 120px;
+  height: 200px;
   margin: 0;
 }
 .Logo {
       position: absolute;
-      height: 100px;
+      height: 150px;
       top: 10px;
       left: 10px;
       }
@@ -93,18 +93,16 @@ background-color: #123C69;
   display: block;
 }
 .Title {
-  Position: absolute;
+  Position: relative;
   background-color: #123C69;
   color: #EEE2DC;
-  left: 35%;
-  top: 5px;
+  text-align: center;
 }
 .Description {
-  Position: absolute;
+  Position: relative;
   background-color: #123C69;
   color: #EEE2DC;
-  left: 35%;
-  top: 50px;
+  text-align: center;
 
 }
 .About {
